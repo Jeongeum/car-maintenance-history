@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'NanumBarunGothic', '맑은 고딕', 'Calibri', 'Arial';
+}
+/* 로고 부분의 디자인을 정의합니다. */
+.wrapper {
+	padding-right: 17px;
+	text-align: center;
+}
+
+/* 분류 부분의 디자인을 정의합니다. */
+.nav {
+	background-color: #08336B;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	font-family: 'NanumBarunGothic', 'Arial';
+}
+.nav > li {
+	width: 20%;
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.nav >li:hover .sub {
+	display: block;
+}
+.nav > li > a {
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+}
+.nav > li a:hover {
+	background: #08336B;
+	color: #c1c1c1;
+}
+.nav .sub {
+	display:none;
+	position:absolute;
+	top:50px;
+	left:0;
+	width:100%;
+	z-index: 1;
+	list-style:none;
+}
+
+.nav .sub li {
+	background: #396eb3;
+}
+
+.nav .sub li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav .sub li > a:hover {
+	background: #08336B;
+}
+
+.cont {
+	margin : 30px;
+}
+
+/*테이블*/
+table {
+	border-collapse: collapse;
+	border-top:1px #000 solid;
+	border-bottom:1px #000 solid;
+	width: 100%;
+}
+
+td {
+padding:10px 0 10px 0;
+border-top:1px #ededed solid;
+text-align:center;
+}
+
+footer {
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 15px;
+	font-size:12px;
+	background-color:#08336B;
+	text-align: center;
+	color:white;
+}
